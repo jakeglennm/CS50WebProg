@@ -1,0 +1,39 @@
+/* credit to Gen1a/CS50W-Project0 repo */
+body {
+    margin: 0px;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+.header, .header-links {
+    display: flex;
+    align-items: center;
+}
+.header a, .header-links a {
+    color: black;
+    padding: 10px;
+}
+.header-links {
+    margin-left: auto;
+}
+.search-container {
+    display: flex;
+    flex-direction: column;
+    /* Align the search container in the center of the viewport */
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+  }
+  .search-container .search-field{
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    border: 1px solid #afafaf;
+    align-items: center;
+    margin: 10px;
+    padding-left: 15px;
+  }
+  .search-container .search-field input {
+    border: none;
+    border-radius: 25px;
+  }
